@@ -1,0 +1,21 @@
+ name: RPGWAR
+ version: 1.0
+ author: IllicitSpider
+ main: com.mymcservers.wow.Main
+ commands:
+     message:
+         description: Private Message a player.
+     msg:
+         description: Private Message a player.
+     m:
+         description: Private Message a player.
+     tell:
+         description: Private Message a player.
+     t:
+         description: Private Message a player.
+     kick:
+         description: Staff command.
+     setrank:
+         description: Staff command.
+     test:
+         description: Testing command

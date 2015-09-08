@@ -70,7 +70,7 @@ public class Main extends JavaPlugin implements CommandExecutor
         if(sender instanceof  Player){
             Player p = (Player) sender;
             if(label.equalsIgnoreCase("test")){
-                Titles.sendTitle(p, "TEST", "PENIS", 5, 10, 5);
+                Titles.sendTitle(p, "TEST", "T", 5, 10, 5);
             }
         }
         return false;

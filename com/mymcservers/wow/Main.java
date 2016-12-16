@@ -53,7 +53,7 @@ public class Main extends JavaPlugin implements CommandExecutor
         this.getLogger().info("RPGWAR Enabled!");
     }
     @Override
-    public void onDisable()//What do you mean exp integrated system?
+    public void onDisable()
     {
         try {
             if (DatabaseConnection.getConnection() == null && DatabaseConnection.getConnection().isClosed()) {

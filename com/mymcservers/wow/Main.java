@@ -1,3 +1,5 @@
+/* Copyright (c) 2016, Ben Adamsky */
+
 package com.mymcservers.wow;
 
 import com.mymcservers.wow.Commands.Kick;
@@ -19,7 +21,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
-
 import java.sql.SQLException;
 
 public class Main extends JavaPlugin implements CommandExecutor

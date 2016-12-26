@@ -1,10 +1,11 @@
+/* Copyright (c) 2016, Ben Adamsky */
+
 package com.mymcservers.wow.utils;
 
 import com.mymcservers.wow.Main;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-
 import java.util.List;
 
 public class MsgUtil {
@@ -45,11 +46,3 @@ public class MsgUtil {
         p.sendMessage(Main.objpc + msg);
     }
 }
-
-/*
-
-
-
-
-
- */

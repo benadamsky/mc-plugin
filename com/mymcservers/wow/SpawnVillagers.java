@@ -1,3 +1,5 @@
+/* Copyright (c) 2016, Ben Adamsky */
+
 package com.mymcservers.wow;
 
 import org.bukkit.Bukkit;
@@ -17,7 +19,6 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
-
 import java.util.ArrayList;
 import java.util.Random;
 

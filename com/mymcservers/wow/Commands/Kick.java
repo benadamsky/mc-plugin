@@ -1,3 +1,5 @@
+/* Copyright (c) 2016, Ben Adamsky */
+
 package com.mymcservers.wow.Commands;
 
 import com.mymcservers.wow.utils.MsgUtil;
@@ -30,7 +32,4 @@ public class Kick implements CommandExecutor {
         }
         return false;
     }
-    }
-
-
-
+}

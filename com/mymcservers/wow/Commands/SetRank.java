@@ -1,3 +1,5 @@
+/* Copyright (c) 2016, Ben Adamsky */
+
 package com.mymcservers.wow.Commands;
 
 import com.mymcservers.wow.Main;
@@ -9,7 +11,6 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-
 
 public class SetRank implements CommandExecutor {
     @Override
@@ -78,5 +79,5 @@ public class SetRank implements CommandExecutor {
             }
         }
     return false;
-}
+    }
 }

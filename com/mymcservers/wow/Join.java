@@ -1,3 +1,5 @@
+/* Copyright (c) 2016, Ben Adamsky */
+
 package com.mymcservers.wow;
 
 import com.mymcservers.wow.sql.DatabaseConnection;
@@ -9,7 +11,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
-
 import static com.mymcservers.wow.sql.Methods.getRank;
 
 public class Join implements Listener {

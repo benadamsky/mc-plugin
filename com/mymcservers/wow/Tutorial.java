@@ -1,3 +1,5 @@
+/* Copyright (c) 2016, Ben Adamsky */
+
 package com.mymcservers.wow;
 
 import com.mymcservers.wow.sql.DatabaseConnection;
@@ -14,9 +16,7 @@ import org.bukkit.event.player.AsyncPlayerChatEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.event.player.PlayerMoveEvent;
 import org.bukkit.event.player.PlayerQuitEvent;
-
 import java.util.Set;
-
 import static com.mymcservers.wow.sql.Methods.containsPlayer;
 import static com.mymcservers.wow.sql.Methods.getRank;
 import static com.mymcservers.wow.sql.Methods.setInt;

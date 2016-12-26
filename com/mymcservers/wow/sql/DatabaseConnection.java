@@ -1,7 +1,8 @@
+/* Copyright (c) 2016, Ben Adamsky */
+
 package com.mymcservers.wow.sql;
 
 import org.bukkit.Bukkit;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;

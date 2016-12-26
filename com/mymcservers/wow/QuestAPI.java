@@ -1,8 +1,9 @@
+/* Copyright (c) 2016, Ben Adamsky */
+
 package com.mymcservers.wow;
 
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
-
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,14 +1,12 @@
+/* Copyright (c) 2016, Ben Adamsky */
+
 package com.mymcservers.wow.utils;
 
 import net.minecraft.server.v1_8_R1.*;
 import org.bukkit.craftbukkit.v1_8_R1.entity.CraftPlayer;
 import org.bukkit.entity.Player;
-
 import java.lang.reflect.Field;
 
-/**
- * Created by benja_000 on 6/16/2015.
- */
 public class Titles {
 
     public static void sendTitle(Player player, String title, String subtitle, int fadeIn, int stay, int fadeOut) {
@@ -44,9 +42,6 @@ public class Titles {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
         connection.sendPacket(packet);
-
-
     }
 }

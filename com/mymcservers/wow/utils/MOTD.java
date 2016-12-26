@@ -1,10 +1,11 @@
+/* Copyright (c) 2016, Ben Adamsky */
+
 package com.mymcservers.wow.utils;
 
 import org.bukkit.ChatColor;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.server.ServerListPingEvent;
-
 import java.util.Random;
 
 public class MOTD implements Listener {

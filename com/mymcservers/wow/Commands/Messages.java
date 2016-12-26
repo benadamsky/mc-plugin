@@ -1,3 +1,5 @@
+/* Copyright (c) 2016, Ben Adamsky */
+
 package com.mymcservers.wow.Commands;
 
 import com.mymcservers.wow.utils.MsgUtil;
@@ -7,11 +9,7 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-/**
- * Created by benja_000 on 5/31/2015.
- */
 public class Messages implements CommandExecutor{
-
 
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if (sender instanceof Player) {
@@ -73,9 +71,6 @@ public class Messages implements CommandExecutor{
                 }
             }
 
-
-
-
 //TELL COMMAND
             if (cmd.getName().equalsIgnoreCase("tell") && args.length == 0) {
                 MsgUtil.nullArgs(p);
@@ -101,10 +96,6 @@ public class Messages implements CommandExecutor{
                     MsgUtil.nullP(p);
                 }
             }
-
-
-
-
 
 //T COMMAND
             if (cmd.getName().equalsIgnoreCase("t") && args.length == 0) {
@@ -132,9 +123,6 @@ public class Messages implements CommandExecutor{
                 }
             }
 
-
-
-
 //M COMMAND
             if (cmd.getName().equalsIgnoreCase("m") && args.length == 0) {
                 MsgUtil.nullArgs(p);
@@ -160,17 +148,7 @@ public class Messages implements CommandExecutor{
                     MsgUtil.nullP(p);
                 }
             }
-
-
-
-
-
-
-
-        }        return false;
+        }        
+        return false;
     }
-
-    }
-
-
-
+}

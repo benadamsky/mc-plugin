@@ -1,3 +1,5 @@
+/* Copyright (c) 2016, Ben Adamsky */
+
 package com.mymcservers.wow.sql;
 
 import net.md_5.bungee.api.ChatColor;
